@@ -13,8 +13,12 @@
 
 ## Files to Publish
 - `public_site/index.html`
+- `public_site/tokushoho.html`
 - `public_site/styles.css`
 - `public_site/README_publish.md`
+
+## Stripe Business Verification
+`特定商取引法に基づく表記` ページ（`public_site/tokushoho.html`）を公開し、その公開URLをStripeのbusiness verification提出URLとして使用してください。
 
 ## Minimal Publish Flow
 1. `public_site/` 配下のみを公開用リポジトリまたは Pages 用ブランチに配置する。
