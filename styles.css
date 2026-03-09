@@ -51,6 +51,43 @@ h1 {
   opacity: 0.95;
 }
 
+.hero-copy {
+  margin: 16px 0 0;
+  max-width: 720px;
+  color: rgba(255, 255, 255, 0.9);
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 28px;
+}
+
+.button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  padding: 0 18px;
+  border-radius: 999px;
+  border: 1px solid transparent;
+}
+
+.button:hover {
+  text-decoration: none;
+}
+
+.button-primary {
+  background: #ffffff;
+  color: var(--accent);
+}
+
+.button-secondary {
+  border-color: rgba(255, 255, 255, 0.45);
+  color: #ffffff;
+}
+
 .section {
   padding: 44px 0;
 }
@@ -81,6 +118,16 @@ h2 {
   border-radius: 10px;
   padding: 14px 16px;
   font-weight: 600;
+}
+
+.step-list {
+  margin: 0;
+  padding-left: 20px;
+  color: var(--muted);
+}
+
+.step-list li + li {
+  margin-top: 8px;
 }
 
 .pricing-grid {
