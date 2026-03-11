@@ -14,6 +14,7 @@
       <h1>Zengin-Modern Gateway API</h1>
       <p class="hero-copy">Built for teams that need predictable conversion and validation for Japanese bank file workflows.</p>
       <p class="lead">Deterministic API for bidirectional conversion and validation between JSON and Zengin fixed-length banking format.</p>
+      <p class="hero-copy">Start on RapidAPI, request an evaluation key, and validate before production onboarding.</p>
       <div class="hero-actions">
         <a class="button button-primary" href="https://rapidapi.com/kodomonocch1/api/zengin-modern-gateway-api">Start on RapidAPI</a>
         <a class="button button-secondary" href="https://rapidapi.com/kodomonocch1/api/zengin-modern-gateway-api">Read the Docs</a>
@@ -63,8 +64,23 @@
         <h2>Where to Start</h2>
         <ol class="step-list">
           <li>Start on RapidAPI.</li>
+          <li>Request an evaluation key.</li>
           <li>Test health and validate endpoints.</li>
           <li>Integrate generate, parse, and lint into your workflow.</li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <h2>How to get an evaluation key</h2>
+        <p>Phase 1 evaluation uses a provider-issued hosted API key in the Authorization header. This keeps the upstream contract unchanged while allowing low-friction evaluation.</p>
+        <ol class="step-list">
+          <li>Subscribe on RapidAPI</li>
+          <li>Request an evaluation key</li>
+          <li>Test GET /v1/meta/health</li>
+          <li>Test POST /v1/zengin/validate</li>
+          <li>Move to Growth / Scale for production use</li>
         </ol>
       </div>
     </section>
