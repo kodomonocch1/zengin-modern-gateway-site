@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kodomonocch1.github.io/zengin-modern-gateway-site/sitemap.xml
